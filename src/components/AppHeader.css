@@ -1,0 +1,21 @@
+.AppHeader {
+  background-color: #222;
+  height: 3em;
+  padding: 1em;
+  color: white;
+}
+
+.AppHeader h2 {
+  margin-top: .5rem;
+}
+
+@media all and (min-width: 700px) {
+  .AppHeader {
+    height: 5em;
+    padding: 1.25rem;
+  }
+
+  .AppHeader h2 {
+    margin-top: 1.5rem;
+  }
+}

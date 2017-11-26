@@ -1,0 +1,9 @@
+.App {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+.App > * {
+  flex: 1 1 100%;
+}

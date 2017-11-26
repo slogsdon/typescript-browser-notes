@@ -1,0 +1,69 @@
+.AppMain {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 40rem;
+  margin: 0 auto;
+  padding:10px;
+  width: 100%;
+}
+
+.AppMain > section {
+  flex: 0 0 100%;
+}
+
+.AppMain-new-title-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.AppMain-new-title {
+  border: 0;
+  border-bottom: 1px solid #eee;
+  flex: 1 100%;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  padding: .3rem;
+  width: 100%;
+}
+
+.AppMain-items {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.AppMain-item-list-heading {
+  border-bottom: 1px solid #eee;
+  color: #555;
+  font-weight: normal;
+}
+
+.AppMain-global-actions {
+  margin-top: .6rem;
+}
+
+.AppMain-global-actions-action {
+  color: #bbb;
+  font-size: .85rem;
+  text-decoration: none;
+}
+
+@media all and (min-width: 700px) {
+  .AppMain-item-list {
+    flex-basis: 33.33333333%;
+    max-width: 33.33333333%;
+    order: 1;
+  }
+
+  .AppMain-item-detail {
+    flex-basis: 66.33333337%;
+    max-width: 66.33333337%;
+    margin-left: .6rem;
+    order: 2;
+  }
+
+  .AppMain-global-actions {
+    flex-basis: 100%;
+    max-width: 100%;
+    order: 3;
+  }
+}

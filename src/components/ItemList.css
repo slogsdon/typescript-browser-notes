@@ -1,0 +1,13 @@
+.ItemList {
+  margin: 0;
+  padding: 0;
+  padding-top: .6rem;
+}
+
+.ItemList-item {
+  border: 1px solid #ddd;
+  list-style: none;
+  padding: .3rem;
+  margin-bottom: .6rem;
+  cursor: pointer;
+}

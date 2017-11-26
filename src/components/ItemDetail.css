@@ -1,0 +1,16 @@
+.ItemDetail-title {
+  text-align: left;
+}
+
+.ItemDetail-content-container {
+  display: flex;
+  flex-flow: row-wrap;
+}
+
+.ItemDetail-content {
+  border: 1px solid #eee;
+  flex: 1 100%;
+  min-height: 15rem;
+  padding: .3rem;
+  width: 100%;
+}
